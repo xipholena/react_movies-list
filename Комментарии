@@ -1,0 +1,6 @@
+MoviesList.js:
+MoviesList.propTypes = {
+  movies: PropTypes.arrayOf(MovieType).isRequired,//Ошибка  если movies: MovieType.arrayOf().isRequired: 
+};
+
+//TypeError: _types__WEBPACK_IMPORTED_MODULE_1__.MovieType.arrayOf is not a function
